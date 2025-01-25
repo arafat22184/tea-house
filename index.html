@@ -39,7 +39,7 @@
 
     <!-- HEADER SECTION -->
 
-    <header class="hidden lg:flex pt-10 mb-20">
+    <header class="lg:flex pt-10 mb-20">
 
       <!-- TEXT CONTENT -->
 
@@ -75,7 +75,7 @@
 
     <!-- FEATURED PRODUCT SECTION -->
 
-    <section class="py-8 lg:py-24 hidden">
+    <section class="py-8 lg:py-24">
       <!-- Title -->
       <div class="text-center mb-8">
         <h1 class="text-3xl md:text-4xl font-bold mb-5">
@@ -127,12 +127,12 @@
       </div>
     </section>
 
-    <!-- Great Tea Section -->
+    <!-- GREAT TEA SECTION -->
 
-    <section class="mb-24 hidden">
-      <div class="grid grid-cols-3 lg:grid-cols-2">
+    <section class="mb-24">
+      <div class="grid grid-cols-1 lg:grid-cols-2">
         <!-- Image Container -->
-        <div class="grid grid-cols-2 grid-rows-3 gap-4 lg:w-5/6">
+        <div class="grid grid-cols-2 grid-rows-3 gap-4 max-w-lg">
           <div class="h-34 bg-gradient-to-r from-red-100 to-red-50 rounded-xl"></div>
           <div class="row-span-2 bg-orange-50 rounded-xl px-12 py-10">
             <img class="m-auto" src="images/fresh-1.png" alt="">
@@ -317,6 +317,100 @@
     </section>
 
   </main>
+
+  <!-- FOOTER SECTION -->
+
+  <footer class="bg-orange-100 text-gray-700 py-10 px-4 md:px-16">
+
+    <div class="w-9/12 mx-auto">
+
+      <!-- Logo -->
+      <div class="mb-8 flex justify-between">
+        <img class="mb-8" src="images/cup.png" alt="">
+
+        <div class="flex items-center gap-10">
+          <h4>Ready to get started</h4>
+          <button class="bg-gradient-to-r from-orange-400 to-red-500 px-3 py-2 rounded-lg text-white font-bold">Get
+            started</button>
+        </div>
+
+      </div>
+
+      <!-- Links -->
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+
+        <!-- First Column -->
+
+        <div>
+          <h3 class="font-semibold text-lg mb-3">Quick Links</h3>
+          <ul class="space-y-2">
+            <li><a class="hover:text-orange-600" href="#">Home</a></li>
+            <li><a class="hover:text-orange-600" href="#">About</a></li>
+            <li><a class="hover:text-orange-600" href="#">Insurance</a></li>
+            <li><a class="hover:text-orange-600" href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <!-- Second Column -->
+
+        <div>
+          <h3 class="font-semibold text-lg mb-3">Our Service</h3>
+          <ul class="space-y-2">
+            <li><a class="hover:text-orange-600" href="#">Life Insurance</a></li>
+            <li><a class="hover:text-orange-600" href="#">Car Insurance</a></li>
+            <li><a class="hover:text-orange-600" href="#">Health Insurance</a></li>
+            <li><a class="hover:text-orange-600" href="#">House Insurance</a></li>
+          </ul>
+        </div>
+
+        <!-- Third Column -->
+
+        <div>
+          <h3 class="font-semibold text-lg mb-3">Help</h3>
+          <ul class="space-y-2">
+            <li><a class="hover:text-orange-600" href="#">FAQs</a></li>
+            <li><a class="hover:text-orange-600" href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Fourth Column -->
+
+        <div>
+          <h3 class="font-semibold text-lg mb-3">Subscribe to our newsletter</h3>
+
+          <div>
+
+            <!-- Email input -->
+            <div class="flex items-center">
+              <input class="bg-transparent border-b-2 border-black w-4/6 md:w-5/6 py-6" type="email"
+                placeholder="Email address">
+              <button class="bg-gradient-to-r from-orange-400 to-red-500 rounded-full"><i
+                  class="fa-solid fa-chevron-right w-8 h-8 inline-flex justify-center items-center text-white"></i></button>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="flex gap-6 mb-2 mt-8">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Copyright -->
+
+      <div class="text-center pt-4 mt-4">
+        <p class="text-sm text-gray-600">© 2027 UIDesign.to - All rights reserved.</p>
+      </div>
+
+    </div>
+
+  </footer>
 
 </body>
 
